@@ -22,7 +22,7 @@ function Home(){
         console.log(name)
         const check = products.filter((data)=>data.name.toLowerCase() === name.toLowerCase());
          console.log(check)
-        if(check.length != 0){
+        if(check.length !== 0){
             seterror("Product already exist")
         }
         else{
