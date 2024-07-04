@@ -1,0 +1,156 @@
+.home-screen{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.input-wrapper{
+    background-color: #F0F0F0;
+
+    width: 50%;
+    border-radius: 12px;
+    border: 0.5px solid #D3D3D3;
+    box-shadow: 2px 2px 2px #D3D3D3;
+    padding:4px 4px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    >input{
+        height: 100%;
+        width: 100%;
+        background-color: #F0F0F0;
+        border: none;
+    
+    }
+    >input:focus{
+     outline: none;
+    }
+    display: flex;
+    
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+}
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+    >tr{
+        >th{
+          border-top: 1px;
+          border-bottom: 1px;
+          background-color: black;
+          color: white;
+          padding: 4px;
+        }
+        >td{
+          text-align: center;
+        }
+    }
+}
+thead{
+    >tr{
+        >th{
+          background-color: black;
+          color: white;
+          padding: 4px 0px;
+        }
+    
+    }
+}
+tbody{
+    >tr{
+       >td{
+          text-align: center;
+          padding: 4px 0px;
+          border-bottom: 1px solid gray;
+
+        }
+    }
+}
+.cancel-btn{
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(189, 0, 0);
+    color: white;
+}
+.no-products{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+.addproduct-form{
+    padding-bottom: 12px;
+    width: 50%;
+    border:0.5px solid #D3D3D3;
+    box-shadow: 2px 2px 2px #D3D3D3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    border-radius: 5px;
+ 
+    >form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      >input{
+        background-color: #F0F0F0;
+        border: none;
+        border-radius:6px;
+        padding: 12px 8px;
+        width: 70%;
+        height: 20px;
+        margin-top: 10px;
+    
+      }
+      >label{
+      
+        width: 70%;
+        text-align: start;
+        color:#696969;
+        font-size: 12px;
+
+      }
+
+      >button{
+    
+        font-size: 16px;
+        margin-top: 10px;
+        width:100px;
+        padding:12px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+    }
+    }
+   
+}
+
+.error{
+    margin-top:4px ;
+    font-size: 16px;
+    color:red;
+    text-align: center;
+}
+.success{
+    margin-top:4px ;
+    font-size: 16px;
+    color:green;
+    text-align: center;
+}
+.header{
+    background-color:black;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
